@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.font {
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple";
+}
