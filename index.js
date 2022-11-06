@@ -16,3 +16,8 @@ app.listen("3000", (err) => {
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
+
+app.post("/", (req, res) => {
+  const username = req.body.email;
+  const password = req.body.pass;
+});

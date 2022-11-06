@@ -56,7 +56,7 @@ input {
     display: block;
     width: 100%;
     box-sizing: border-box;
-    padding: 5px 16px;
+    padding: 5px 12px;
     line-height: 20px;
     font-size: 14px;
     border: 1px solid #30363d;
@@ -64,6 +64,9 @@ input {
     margin-top: 4px;
     margin-bottom: 16px;
     background-color: #0d1117;
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    overflow: visible;
 }
 
 .btn {
@@ -73,7 +76,7 @@ input {
 
 button {
     width: 100%;
-    padding: 5px 16px;
+    padding: 5px 12px;
     font-size: 14px;
     font-weight: 600;
     line-height: 20px;
@@ -166,6 +169,23 @@ input:focus {
     border-color: #58a6ff;
     outline: none;
     box-shadow: inset 0 0 0 1px #58a6ff;
+}
+
+input:-webkit-autofill {
+    box-shadow: inset 0 0 0 32px #0d1117 !important;
+    -webkit-text-fill-color: #c9d1d9;
+    caret-color: #c9d1d9;
+    outline-offset: 0;
+}
+
+input:-webkit-autofill:focus {
+    box-shadow: inset 0 0 0 32px #0d1117, 0 0 0 2px #58a6ff !important;
+}
+
+input:focus-visible {
+    border-color: #58a6ff;
+    outline: none;
+    outline-offset: 0;
 }
 
 .fa-3x {
