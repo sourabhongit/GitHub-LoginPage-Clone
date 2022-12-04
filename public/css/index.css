@@ -1,6 +1,6 @@
 body {
     background-color: #0d1117;
-    color: white;
+    color: #c9d1d9;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -78,7 +78,7 @@ button {
     width: 100%;
     padding: 5px 12px;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 530;
     line-height: 20px;
     border: 1px solid;
     border-radius: 6px;

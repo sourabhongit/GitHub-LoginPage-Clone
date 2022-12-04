@@ -20,4 +20,6 @@ app.get("/", (req, res) => {
 app.post("/", (req, res) => {
   const username = req.body.email;
   const password = req.body.pass;
+  console.log(username);
+  console.log(password);
 });
