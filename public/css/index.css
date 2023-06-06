@@ -1,0 +1,214 @@
+body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.font {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+#logo {
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+
+.headline {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 0;
+    letter-spacing: -0.5px;
+    padding: 0;
+}
+
+.insideHeadline {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 400;
+    width: 100%;
+}
+
+#form {
+ display: inline-block;
+ background-color: #161b22;
+ text-align: left;
+ border-radius: 6px;
+ padding: 16px;
+ width: 100%;
+ border: 1px solid #21262d;
+ margin-top: 16px;
+ box-sizing: border-box;
+}
+
+input {
+    color: #c9d1d9;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 12px;
+    line-height: 20px;
+    font-size: 14px;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    background-color: #0d1117;
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    overflow: visible;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 5px 12px;
+    font-size: 14px;
+    font-weight: 530;
+    line-height: 20px;
+    border: 1px solid;
+    border-radius: 6px;
+    background-color: #238636;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 0 transparent;
+    border-color: rgba(240,246,252,0.1);
+}
+
+#createAccount {
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 0;
+    margin: 16px 0 10px 0;
+}
+
+#main {
+    width: 310px;
+    margin: 0 auto;
+}
+
+.inCreateAccount {
+    padding: 16px 16px;
+    text-align: center;
+    margin: 0;
+}
+
+button:hover {
+    background-color: #448551;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+.footerLinks {
+    font-size: 12px !important;
+    margin-right: 10px;
+    color: #58a6ff;
+}
+
+.contact {
+    font-size: 12px !important;
+    margin-right: 11px;
+    color: #8b949e;
+}
+
+.contact:hover {
+    text-decoration: underline;
+    color: #58a6ff;
+}
+
+.footerLinks:hover {
+    text-decoration: underline;
+}
+
+li a {
+    text-decoration: none;
+}
+
+#createAc {
+    text-decoration: none;
+}
+
+#createAc:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    margin-top: 40px;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 16px;
+}
+
+p a {
+    color: #58a6ff;
+}
+
+input:focus {
+    border-color: #58a6ff;
+    outline: none;
+    box-shadow: inset 0 0 0 1px #58a6ff;
+}
+
+input:-webkit-autofill {
+    box-shadow: inset 0 0 0 32px #0d1117 !important;
+    -webkit-text-fill-color: #c9d1d9;
+    caret-color: #c9d1d9;
+    outline-offset: 0;
+}
+
+input:-webkit-autofill:focus {
+    box-shadow: inset 0 0 0 32px #0d1117, 0 0 0 2px #58a6ff !important;
+}
+
+input:focus-visible {
+    border-color: #58a6ff;
+    outline: none;
+    outline-offset: 0;
+}
+
+.fa-3x {
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.forgotPass {
+    float: right;
+    position: absolute;
+    right: 0 !important;
+    top: 0 !important;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #58a6ff;
+    cursor: pointer;
+}
+
+.passDiv {
+    position: relative;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
